@@ -1,0 +1,750 @@
+.home{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+   
+}
+
+/* ............first section starts here........ */
+
+.sec1{
+    background-image:url('./images/Background.png') ;
+    object-fit:cover;
+    width: 100vw;
+    height: 100vh;
+    mix-blend-mode:multiply;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color:rgba(15, 5, 154, 0.95);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+    filter: saturate(150%);
+}
+
+
+.logo{
+    width:28%;
+    z-index: -9999;
+    position: absolute;
+
+}
+
+.img_container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+   width: 100%;
+   height: 100%;
+   flex: 4;
+   z-index: -9999;
+   position: relative;
+}
+
+.navbar{
+  
+ 
+    width: 100vw;
+   background-color: transparent;
+   display: flex;
+   flex: 1;
+   background-color: #e4971300;
+    
+
+}
+
+.navbaritem{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.navbaritem>ul{
+    display: flex;
+    padding: 2.5rem;
+    gap: 3rem;
+    
+}
+
+
+.navbaritem>ul>li{
+    list-style: none;
+    border-radius: 1rem;
+    border: 0px solid transparent ;
+    background-image: linear-gradient(180deg, #FD5811 0%, #FBC533 100%);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    width: 5.9rem;
+    height: 2.5rem;
+    display: flex;
+    transition: all 300ms;
+    box-shadow: 0px 0px 15px  #d4910c ;
+
+}
+
+li:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 30px  #d4910c ;
+}
+
+
+
+.navbaritem>ul>li>a{
+
+    text-decoration: none;
+    font-weight: 700;
+    font-size:1rem ;
+    background:#2E154B 100%;
+    width: 5.4rem;
+    height: 2.1rem;
+    border-radius:0.7rem;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms;
+}
+
+
+.nav_toggle{
+
+    cursor: pointer;
+    float: right;
+    margin: 35px;
+   z-index: 999;
+   position: relative;
+   display: none;
+   font-size: 2rem;
+   color: #FBC533;
+
+
+ 
+}
+
+
+
+.clear{
+    clear: both;
+}
+
+/* ............first section ends here........ */
+
+
+/* ............second section starts here........ */
+
+.sec2{
+    background-image:url('./images/SECOND.png') ;
+    object-fit:cover;
+    width: 100vw;
+    height: 40vh;
+    mix-blend-mode:multiply;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color:#16042c;
+    position: relative;
+    display: flex;
+  flex-direction: column;
+    text-align: center;
+    justify-content: center;
+overflow: hidden;
+}
+
+.sec2>ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+.sec2>ul>li{
+    list-style: none;
+    border-radius: 0.5rem;
+    border: 0px solid transparent ;
+    background-image: linear-gradient(180deg, #FD5811 0%, #FBC533 100%);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* width: 25rem;
+    height: 3.5rem; */
+    width: 40%;
+    height: 30%;
+    display: flex;
+    transition: all 300ms;
+    box-shadow: 2px 4px 10px  #d4910c ;
+
+}
+
+.sec2>ul>li:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 30px  #d4910c ;
+}
+
+
+
+.sec2>ul>li>a{
+
+    text-decoration: none;
+    font-weight: 700;
+    font-size:2.7rem ;
+    background:#2E154B 100%;
+    /* width: 24.5rem;
+    height: 3.1rem; */
+    width: 98%;
+    height: 89%;
+    border-radius:0.5rem;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms;
+}
+
+
+/* ............second section ends here........ */
+
+
+
+/* ............third section starts here........ */
+
+
+
+.sec3{
+    background-image:url('./images/sky.png') ;
+    object-fit:cover;
+    width: 100vw;
+    height: 100vh;
+    mix-blend-mode:multiply;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    display: flex;
+  flex-direction: column;
+    text-align: center;
+overflow: hidden;
+filter: contrast(130%);
+
+
+
+}
+
+
+.sec3>ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex: 1;
+    padding-top: 50px;
+}
+
+
+.sec3>ul>li{
+    list-style: none;
+    border-radius: 0.5rem;
+    border: 0px solid transparent ;
+    background-image: linear-gradient(180deg, #FD5811 0%, #FBC533 100%);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* width: 25rem;
+    height: 3.5rem; */
+    width: 41%;
+    height: 62%;
+    display: flex;
+    transition: all 300ms;
+    box-shadow: 2px 4px 10px  #d4910c ;
+
+}
+
+
+.sec3>ul>li>a{
+
+    text-decoration: none;
+    font-weight: 700;
+    font-size:2rem ;
+    line-height: 75px;
+    background:#2E154B 100%;
+    /* width: 24.5rem;
+    height: 3.1rem; */
+    width: 98%;
+    height: 89%;
+    border-radius:0.5rem;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms;
+}
+
+.card_div{
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap:8%;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    cursor: pointer;
+    gap: 5%;
+   padding: 0.5%;
+   
+    height: 65%;
+    width: 19%;
+    border-radius:0.5rem;
+    background: linear-gradient(180deg, #FD5811 0%, #FBC533 100%);
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+ transition: all 300ms;
+   box-shadow: -10px -10px 25px rgba(253, 88, 17, 0.5), 10px 10px 20px rgba(251, 197, 51, 0.5);
+}
+
+
+.card:hover{
+    height: 67%;
+    width: 20%;
+}
+
+.card-field {
+    flex: 4;
+    height: 80%;
+    width: 99%;
+    border-radius: 0.5rem;
+    background: rgba(24, 2, 41, 1);
+}
+
+.card-btn-con{
+flex: 1;
+height:80%;
+width:90%;
+cursor: pointer;
+
+}
+
+
+.card-btn {
+
+    text-align: center;
+    height:80%;
+    width:100%;
+    border-radius:0.5rem;
+    background: rgba(24, 2, 41, 1);
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+/* ............third section ends here........ */
+
+
+/* ............fourth section starts here........ */
+
+.sec4{
+    background-image:url('./images/sec4.png') ;
+    object-fit:cover;
+    width: 100vw;
+    height: 40vh;
+    mix-blend-mode:multiply;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    display: flex;
+    text-align: center;
+overflow: hidden;
+
+
+filter: brightness(70%);
+
+}
+
+
+
+.sec4>ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+.sec4>ul>li{
+    list-style: none;
+    border-radius: 0.5rem;
+    border: 0px solid transparent ;
+    background-image: linear-gradient(180deg, #FD5811 0%, #FBC533 100%);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* width: 25rem;
+    height: 3.5rem; */
+    width: 40%;
+    height: 30%;
+    display: flex;
+    transition: all 300ms;
+    box-shadow: 2px 4px 10px  #d4910c ;
+
+}
+
+
+
+
+
+.sec4>ul>li>a{
+
+    text-decoration: none;
+    font-weight: 700;
+    font-size:2rem ;
+    background:#2E154B 100%;
+    /* width: 24.5rem;
+    height: 3.1rem; */
+    width: 98%;
+    height: 89%;
+    border-radius:0.5rem;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms;
+}
+
+
+/* ............fourth section ends here........ */
+
+
+/* ............fifth section starts here........ */
+
+.sec5{
+    background-image:url('./images/sec5.png') ;
+    object-fit:cover;
+    width: 100vw;
+    height: 40vh;
+    mix-blend-mode:multiply;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color:#767a10fa;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+overflow: hidden;
+filter: saturate(130%);
+
+}
+
+.sec5>ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+.sec5>ul>li{
+    list-style: none;
+    border-radius: 0.5rem;
+    border: 0px solid transparent ;
+    background-image: linear-gradient(180deg, #FD5811 0%, #FBC533 100%);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* width: 25rem;
+    height: 3.5rem; */
+    width: 60%;
+    height: 30%;
+    display: flex;
+    transition: all 300ms;
+    box-shadow: 2px 4px 25px  #d4910c ;
+
+}
+
+.sec5>ul>li:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 30px  #d4910c ;
+}
+
+
+
+.sec5>ul>li>a{
+
+    text-decoration: none;
+    font-weight: 700;
+    font-size:2rem ;
+    background:#2E154B 100%;
+    /* width: 24.5rem;
+    height: 3.1rem; */
+    width: 98%;
+    height: 89%;
+    border-radius:0.5rem;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms;
+}
+
+
+/* ............fifth section ends here........ */
+
+
+@media (max-width:580px) {
+
+
+
+    .sec2>ul>li>a{
+        font-size: 1rem;
+    }
+
+
+    .sec3{
+        height:fit-content;
+        overflow: scroll;
+    }
+  
+    .sec3>ul>li{
+      position: absolute;
+        width: 6.5rem;
+        height: 2rem;
+        margin-bottom: 15px;
+    
+    
+    }
+    
+
+    .sec3>ul>li>a{
+        font-size: 1rem;
+        line-height: 1rem;
+        width: 6.2rem;
+        height: 1.8rem;
+    }
+
+
+
+    .card_div{
+        display: grid;
+       grid-template-columns: auto;
+        width: 100%;
+        height: 100%;
+        margin-top: 1.5rem;
+        
+    }
+
+    .card {
+       
+        height: 10rem;
+        width: 9rem;
+        border-radius:0.5rem;
+        background: linear-gradient(180deg, #FD5811 0%, #FBC533 100%);
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+     transition: all 300ms;
+       box-shadow: -10px -10px 25px rgba(253, 88, 17, 0.5), 10px 10px 20px rgba(251, 197, 51, 0.5);
+    }
+    
+    
+    .card:hover{
+        height: 67%;
+        width: 20%;
+    }
+    
+    .card-field {
+        flex: 4;
+        height: 80%;
+        width: 99%;
+        border-radius: 0.5rem;
+        background: rgba(24, 2, 41, 1);
+    }
+    
+    .card-btn-con{
+    flex: 1;
+    height:80%;
+    width:90%;
+    cursor: pointer;
+    
+    }
+    
+    
+    .card-btn {
+    
+        text-align: center;
+        height:80%;
+        width:100%;
+        border-radius:0.5rem;
+        background: rgba(24, 2, 41, 1);
+        color: #FFFFFF;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 26px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+
+    
+.navbar{
+  opacity: 0;
+    position: relative;
+    transition: all 700ms;
+}
+
+
+.navbar.open{
+    opacity: 100%;
+}
+
+   .navbaritem{
+    display: flex;
+    flex-direction: column;
+    background-color: #2E154B;
+   width: 40%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   right: 0; 
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   }
+
+   .navbaritem>ul{
+
+    display: flex;
+    flex-direction: column;
+    
+    
+   }
+
+
+   .navbaritem>ul>li{
+    list-style: none;
+    border-radius: 1rem;
+    border: 0px solid transparent ;
+    background-image: linear-gradient(180deg, #FD5811 0%, #FBC533 100%);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    width: 5.9rem;
+    height: 2.5rem;
+    display: flex;
+    transition: all 300ms;
+    box-shadow: 0px 0px 15px  #d4910c ;
+
+}
+
+.navbaritem>li:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 30px  #d4910c ;
+}
+
+
+
+.navbaritem>ul>li>a{
+
+    text-decoration: none;
+    font-weight: 700;
+    font-size:1rem ;
+    background:#2E154B 100%;
+    width: 5.4rem;
+    height: 2.1rem;
+    border-radius:0.7rem;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms;
+}
+
+
+   
+    .nav_toggle{
+        display: block;
+        top: 0;
+        right: 0;
+        position: absolute;
+        
+    }
+
+
+    .img_container{
+        position: absolute;
+        top: 35%;
+        z-index: -99;
+    }
+
+    .logo{
+        width: 60%;
+     }
+
+
+} 
+
+
+@media (max-width:390px){
+    
+ .sec5>ul>li>a{
+    font-size: 1rem;
+ }
+
+ .sec4>ul>li>a{
+    font-size: 1rem;
+ }
+
+
+ .logo{
+    width: 60%;
+ }
+ .navbaritem{
+   
+   width: 100%;
+ 
+   }
+
+}
